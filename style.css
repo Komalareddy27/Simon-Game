@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn-container {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .purple {
+    background-color: purple;
+  }
+  
+  .flash {
+    background-color: white;
+    opacity: 0.5;
+  }
+  
+  .userflash {
+    background-color: green;
+  }
+  
